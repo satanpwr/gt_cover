@@ -1,10 +1,13 @@
+p {
+  color: #232323 !important; }
+
 body {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  background: #333; }
 
 .image-wrp {
   margin: 0;
-  background-image: url(https://html5book.ru/wp-content/uploads/2017/01/photo-roses.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -18,4 +21,15 @@ body {
   top: 50%;
   left: 50%;
   padding: 30px 50px;
-  background: rgba(255, 255, 255, 0.6); }
+  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.6);
+  border: 1px solid red; }
+
+p {
+  color: red !important;
+  display: block;
+  width: 300px;
+  height: 300px;
+  border: 3px dotted #eee;
+  float: left;
+  margin-left: 20px; }
